@@ -1,0 +1,6 @@
+#Напишите программу, которая считает стоимость трех компьютеров, состоящих из монитора, системного блока, клавиатуры и мыши.
+monitor = int(input())
+blocK = int(input())
+clava = int(input())
+mouse = int(input())
+print (3*(monitor+blocK+clava+mouse))
